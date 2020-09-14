@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'phone_field',
 ]
 
+ROOT_URLCONF = 'stok.urls'
+
 MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',

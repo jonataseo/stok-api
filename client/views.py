@@ -6,7 +6,7 @@ from .serializers import ClientSerializer
 
 class DefaultMinix(object):
     """Pagination config"""
-    paginate_by = 25
+    paginate_by = 1
     paginate_by_param = 'page_size'
     max_paginate_by = 100
 

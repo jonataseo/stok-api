@@ -2,5 +2,5 @@ from rest_framework.routers import DefaultRouter
 
 from . import views
 
-router = DefaultRouter()
-router.register(r'clients', views.ClientViewSet)
+client_router = DefaultRouter()
+client_router.register(r'clients', views.ClientViewSet)
